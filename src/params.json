@@ -6,5 +6,13 @@
       "profileUrl": "http://instagram.com/jon.a.skinner",
       "hoverColor": "#1db954"
     }
-  ]
+  ],
+  "featureInfo": {
+    "imgUrl": "album-cover.jpg",
+    "featureImgUrl": "jenny-album-cover.jpg",
+    "featureMsgTop": "New Single",
+    "featureMsgBottom": "March 1",
+    "featureLink": "https://distrokid.com/hyperfollow/superpretendo/jenny",
+    "featureBtn": "PRE-SAVE NOW"
+  }
 }

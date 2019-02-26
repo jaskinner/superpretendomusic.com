@@ -2,7 +2,7 @@
     <div id="app">
         <Header></Header>
         <Feature></Feature>
-        <Channels></Channels>
+        <!--<Channels></Channels>-->
         <!--<Footer></Footer>-->
     </div>
 </template>

@@ -26,10 +26,9 @@
         background-color: transparent;
         transition: all 0.2s;
 
-        &:hover {
-            background-color: rgba(0, 0, 0, 0.4);
-            padding: 1rem;
-        }
+        /*&:hover {*/
+            /*background-color: rgba(0, 0, 0, 0.4);*/
+        /*}*/
 
         img {
             display: block;

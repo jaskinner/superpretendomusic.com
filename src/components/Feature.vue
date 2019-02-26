@@ -41,7 +41,7 @@
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-color: #ccc;
+        background-color: #999;
         background-blend-mode: screen;
         display: flex;
         margin-top: 80px;
@@ -77,7 +77,7 @@
                 background-color: #f2e2c4;
                 transition: all 100ms;
                 text-decoration: none;
-                color: #555;
+                color: #999;
                 border-radius: 2px;
                 font-weight: 800;
 

@@ -1,9 +1,15 @@
 {
   "channels": [
     {
-      "channelName": "Instagram",
+      "channelAlt": "Jon Skinner's Instagram",
       "imgUrl": "glyph-logo_May2016.png",
-      "profileUrl": "http://instagram.com/jon.a.skinner",
+      "profileUrl": "https://instagram.com/jon.a.skinner",
+      "hoverColor": "#1db954"
+    },
+    {
+      "channelAlt": "Jon Skinner's YouTube",
+      "imgUrl": "yt_logo_rgb_light.png",
+      "profileUrl": "https://www.youtube.com/user/itsmejskin",
       "hoverColor": "#1db954"
     }
   ],

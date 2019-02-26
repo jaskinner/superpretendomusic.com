@@ -44,8 +44,8 @@
         background-color: #999;
         background-blend-mode: screen;
         display: block;
-        margin: 80px auto;
-        padding: 80px 0;
+        margin: 80px auto 0 auto;
+        padding-top: 80px;
 
         .container {
             /*flex: 0 0 auto;*/

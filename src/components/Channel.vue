@@ -1,6 +1,6 @@
 <template>
     <a class="channel" :href="profileUrl">
-        <img :src="require('../assets/' + imgUrl)" alt="">
+        <img :src="require('../assets/' + imgUrl)" :title="channelAlt" :alt="channelAlt">
     </a>
 </template>
 
@@ -8,7 +8,7 @@
     export default {
         name: "channel",
         props: {
-            channelName: String,
+            channelAlt: String,
             profileUrl: String,
             imgUrl: String,
             hoverColor: String // NOT USED YET
@@ -19,29 +19,21 @@
 
 <style scoped lang="scss">
     .channel {
-        height: 100vw;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        background-color: transparent;
-        transition: all 0.2s;
-
-        /*&:hover {*/
-            /*background-color: rgba(0, 0, 0, 0.4);*/
-        /*}*/
+        flex: 0 0 auto;
+        height: 50px;
+        padding: 16px;
+        max-height: 150px;
 
         img {
             display: block;
-            height: auto;
-            width: 50%;
+            height: 100%;
             max-width: 100%;
         }
     }
 
     @media only screen and (min-width: 768px) {
         .channel {
-            height: 30%;
-            flex: 0 0 30%;
+
         }
     }
 

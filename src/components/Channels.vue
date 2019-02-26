@@ -4,6 +4,7 @@
                  :channelName="channel.channelName"
                  :imgUrl="channel.imgUrl"
                  :profileUrl="channel.profileUrl"
+                 :channelAlt="channel.channelAlt"
         ></Channel>
     </div>
 </template>
@@ -32,7 +33,7 @@
         justify-content: center;
         max-width: 960px;
         margin: auto;
-        padding: 60px 0;
+        margin-top: 60px;
     }
 
 </style>

@@ -29,7 +29,7 @@
         font-family: league-gothic,sans-serif;
         font-style: italic;
         background-color: #fff; /* White background */
-        padding: 2rem 0; /* Some padding */
+        padding: 1rem 0; /* Some padding */
         color: #7fa0c9;
         text-align: center; /* Centered text */
         font-size: 4rem; /* Big font size */
@@ -41,7 +41,11 @@
         transition: 0.5s; /* Add a transition effect (when scrolling - and font size is decreased) */
 
         &.header-collapsed {
-            font-size: 25px;
+            font-size: 2rem;
         }
+    }
+
+    @media only screen and (min-width: 1024px) {
+
     }
 </style>

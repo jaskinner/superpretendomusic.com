@@ -33,7 +33,7 @@
     @import url("https://use.typekit.net/acp4cdy.css");
 
     #feature {
-        height: 700px;
+        height: 500px;
         font-size: 2rem;
         font-family: poppins,sans-serif;
         font-weight: 200;
@@ -43,11 +43,12 @@
         background-size: cover;
         background-color: #999;
         background-blend-mode: screen;
-        display: flex;
-        margin-top: 80px;
+        display: block;
+        margin: 80px auto;
+        padding: 80px 0;
 
         .container {
-            flex: 1 0 auto;
+            /*flex: 0 0 auto;*/
             display: flex;
             flex-direction: column;
             align-items: center;

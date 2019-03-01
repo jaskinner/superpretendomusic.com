@@ -5,6 +5,7 @@
                  :imgUrl="channel.imgUrl"
                  :profileUrl="channel.profileUrl"
                  :channelAlt="channel.channelAlt"
+                 :key="channel.id"
         ></Channel>
     </div>
 </template>

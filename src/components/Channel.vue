@@ -8,6 +8,7 @@
     export default {
         name: "channel",
         props: {
+            channelId: Number,
             channelAlt: String,
             profileUrl: String,
             imgUrl: String,

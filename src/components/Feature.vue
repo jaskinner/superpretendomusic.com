@@ -6,7 +6,7 @@
                 <img :src="require('../assets/' + featureImgUrl)" :alt="featureMsgTop + ' | ' + featureMsgBottom">
             </div>
             <span>{{ featureMsgBottom }}</span>
-            <a :href="featureLink">{{ featureBtn }}</a>
+            <a target="_blank" :href="featureLink">{{ featureBtn }}</a>
         </div>
     </section>
 </template>
@@ -41,7 +41,7 @@
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-color: #999;
+        background-color: #aaa;
         background-blend-mode: screen;
         display: block;
         margin: 80px auto 0 auto;
@@ -75,15 +75,15 @@
                 cursor: pointer;
                 padding: 1rem;
                 margin: 1.5rem;
-                background-color: #f2e2c4;
+                background-color: #43B3D8;
                 transition: all 100ms;
                 text-decoration: none;
-                color: #999;
+                color: white;
                 border-radius: 2px;
                 font-weight: 800;
 
                 &:hover {
-                    background-color: #7fa0c9;
+                    background-color: lighten(#43B3D8, 15%);;
                 }
             }
         }

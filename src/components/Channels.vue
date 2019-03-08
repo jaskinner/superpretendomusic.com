@@ -7,9 +7,9 @@
                  :channelAlt="channel.channelAlt"
                  :key="channel.id"
         ></Channel>
-        <!--<li class="nav-item">-->
-            <!--<iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:39bazNvS2uaVmod4LdwpCx&size=basic&theme=light&show-count=0" width="200" height="25" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>-->
-        <!--</li>-->
+        <li class="nav-item text-center spotify-button-container">
+            <iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:39bazNvS2uaVmod4LdwpCx&size=basic&theme=light&show-count=0" width="92" height="25" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
+        </li>
     </ul>
 </template>
 
@@ -31,5 +31,9 @@
 </script>
 
 <style scoped lang="scss">
-
+    .spotify-button-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 </style>

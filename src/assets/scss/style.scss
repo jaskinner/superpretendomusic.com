@@ -1,3 +1,7 @@
-$font-size-lg: 4rem;
+@import url("https://use.typekit.net/acp4cdy.css");
+
+$font-size-lg: 3rem;
+$font-family-sans-serif: poppins, sans-serif;
+$btn-border-radius: 0;
 
 @import "~bootstrap/scss/bootstrap";

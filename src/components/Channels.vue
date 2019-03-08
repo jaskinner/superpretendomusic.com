@@ -34,7 +34,6 @@
         justify-content: center;
         max-width: 960px;
         margin: auto;
-        margin-top: 60px;
     }
 
 </style>

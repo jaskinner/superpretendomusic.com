@@ -1,12 +1,10 @@
 <template>
-    <section id="feature" :style="{ backgroundImage: 'url(' + require('../assets/' + imgUrl) + ')' }">
+    <section class="jumbotron jumbotron-fluid" id="feature" :style="{ backgroundImage: 'url(' + require('../assets/' + imgUrl) + ')' }">
         <div class="container">
-            <span>{{ featureMsgTop }}</span>
-            <div class="wrapper">
-                <img :src="require('../assets/' + featureImgUrl)" :alt="featureMsgTop + ' | ' + featureMsgBottom">
-            </div>
-            <span>{{ featureMsgBottom }}</span>
-            <a target="_blank" :href="featureLink">{{ featureBtn }}</a>
+            <p class="display-4">{{ featureMsgTop }}</p>
+            <img class="img-fluid feature-img" :src="require('../assets/' + featureImgUrl)" :alt="featureMsgTop + ' | ' + featureMsgBottom">
+            <p class="lead">{{ featureMsgBottom }}</p>
+            <a class="btn btn-primary" target="_blank" :href="featureLink">{{ featureBtn }}</a>
         </div>
     </section>
 </template>
@@ -30,66 +28,17 @@
 </script>
 
 <style scoped lang="scss">
-    @import url("https://use.typekit.net/acp4cdy.css");
-
     #feature {
-        height: 500px;
-        font-size: 2rem;
-        font-family: poppins,sans-serif;
+        background-size: cover;
+        background-color: #999;
+        background-blend-mode: screen;
+        text-align: center;
         font-weight: 200;
         font-style: normal;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-color: #aaa;
-        background-blend-mode: screen;
-        display: block;
-        margin: 80px auto 0 auto;
-        padding-top: 80px;
 
-        .container {
-            /*flex: 0 0 auto;*/
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-
-            & > * {
-                flex: 0 0 auto;
-            }
-
-            .wrapper {
-                width: 240px;
-                box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.75);
-                margin: 1.5rem 0;
-
-                img {
-                    max-width: 100%;
-                    height: auto;
-                    display: block;
-                }
-            }
-
-
-            a {
-                cursor: pointer;
-                padding: 1rem;
-                margin: 1.5rem;
-                background-color: #43B3D8;
-                transition: all 100ms;
-                text-decoration: none;
-                color: white;
-                border-radius: 2px;
-                font-weight: 800;
-
-                &:hover {
-                    background-color: lighten(#43B3D8, 15%);;
-                }
-            }
+        .feature-img {
+            max-width: 200px;
+            box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.75);
         }
-    }
-
-    @media only screen and (min-width: 1024px) {
-
     }
 </style>

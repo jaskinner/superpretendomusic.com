@@ -2,9 +2,14 @@
     <nav id="header" class="navbar navbar-expand-lg fixed-top navbar-light bg-white">
         <div class="container">
             <span class="navbar-brand mb-0">Super Pretendo</span>
-            <!--<ul class="navbar-nav ml-auto">-->
-                <!--<Channels></Channels>-->
-            <!--</ul>-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <Channels></Channels>
+            </div>
         </div>
     </nav>
 </template>
@@ -17,7 +22,9 @@
         components: {Channels}
     }
 
-    window.onscroll = function() {scrollFunction()};
+    window.onscroll = function () {
+        scrollFunction()
+    };
 
     function scrollFunction() {
         if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
@@ -35,7 +42,7 @@
             font-family: league-gothic, sans-serif;
             font-style: italic;
             font-weight: 700;
-            color: #7fa0c9;
+            color: #43b3d8;
             transition: 0.5s;
         }
 

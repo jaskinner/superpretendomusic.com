@@ -4,7 +4,7 @@
             <p class="display-4">{{ featureMsgTop }}</p>
             <img class="img-fluid feature-img" :src="require('../assets/' + featureImgUrl)" :alt="featureMsgTop + ' | ' + featureMsgBottom">
             <p class="lead">{{ featureMsgBottom }}</p>
-            <a class="btn btn-primary" target="_blank" :href="featureLink">{{ featureBtn }}</a>
+            <a class="btn btn-primary btn-lg" target="_blank" :href="featureLink">{{ featureBtn }}</a>
         </div>
     </section>
 </template>
@@ -32,6 +32,7 @@
         background-size: cover;
         background-color: #999;
         background-blend-mode: screen;
+        background-position-y: 25%;
         text-align: center;
         font-weight: 200;
         font-style: normal;

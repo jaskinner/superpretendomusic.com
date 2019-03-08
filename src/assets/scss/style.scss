@@ -1,7 +1,8 @@
 @import url("https://use.typekit.net/acp4cdy.css");
 
-$font-size-lg: 3rem;
+$navbar-brand-font-size: 3rem;
 $font-family-sans-serif: poppins, sans-serif;
-$btn-border-radius: 0;
+$btn-border-radius-lg: 0;
+$primary: #43b3d8;
 
 @import "~bootstrap/scss/bootstrap";

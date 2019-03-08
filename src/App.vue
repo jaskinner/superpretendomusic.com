@@ -2,19 +2,19 @@
     <div id="app">
         <Header></Header>
         <Feature></Feature>
-        <!--<Footer></Footer>-->
+        <!--<Media></Media>-->
     </div>
 </template>
 
 <script>
     import Header from './components/Header.vue'
     import Feature from './components/Feature.vue'
-    // import Footer from './components/Footer.vue'
+    import Media from './components/Media.vue'
 
     export default {
         name: 'app',
         components: {
-            Header, Feature
+            Header, Feature, Media
         }
     }
 </script>

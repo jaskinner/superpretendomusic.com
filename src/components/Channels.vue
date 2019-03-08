@@ -1,5 +1,5 @@
 <template>
-    <div id="channels">
+    <ul class="navbar-nav ml-auto">
         <Channel v-for="channel in channelList"
                  :channelName="channel.channelName"
                  :imgUrl="channel.imgUrl"
@@ -7,7 +7,10 @@
                  :channelAlt="channel.channelAlt"
                  :key="channel.id"
         ></Channel>
-    </div>
+        <!--<li class="nav-item">-->
+            <!--<iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:39bazNvS2uaVmod4LdwpCx&size=basic&theme=light&show-count=0" width="200" height="25" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>-->
+        <!--</li>-->
+    </ul>
 </template>
 
 <script>
@@ -28,12 +31,5 @@
 </script>
 
 <style scoped lang="scss">
-    #channels {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        max-width: 960px;
-        margin: auto;
-    }
 
 </style>

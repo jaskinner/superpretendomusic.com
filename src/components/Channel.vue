@@ -1,7 +1,7 @@
 <template>
     <li class="nav-item">
         <a class="nav-link text-center" :href="profileUrl">
-            <img class="img-fluid" :src="require('../assets/' + imgUrl)" :title="channelAlt" :alt="channelAlt">
+            <img class="img-fluid" :src="require('../assets/images/' + imgUrl)" :title="channelAlt" :alt="channelAlt">
         </a>
     </li>
 </template>

@@ -1,8 +1,8 @@
 <template>
-    <section class="jumbotron jumbotron-fluid" id="feature" :style="{ backgroundImage: 'url(' + require('../assets/' + imgUrl) + ')' }">
+    <section class="jumbotron jumbotron-fluid" id="feature" :style="{ backgroundImage: 'url(' + require('../assets/images/' + imgUrl) + ')' }">
         <div class="container">
             <p class="display-4">{{ featureMsgTop }}</p>
-            <img class="img-fluid feature-img" :src="require('../assets/' + featureImgUrl)" :alt="featureMsgTop + ' | ' + featureMsgBottom">
+            <img class="img-fluid feature-img" :src="require('../assets/images/' + featureImgUrl)" :alt="featureMsgTop + ' | ' + featureMsgBottom">
             <p class="lead">{{ featureMsgBottom }}</p>
             <a class="btn btn-primary btn-lg" target="_blank" :href="featureLink">{{ featureBtn }}</a>
         </div>

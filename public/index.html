@@ -1,31 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135126999-1"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
 
-      gtag('config', 'UA-135126999-1');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-135126999-1');
     </script>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <meta name="title" content="Super Pretendo Music">
-    <meta name="description" content="Super Pretendo is a Raleigh, NC solo acoustic musical act with a catalog of songs written and covered by Jon Skinner, streaming everywhere now.">
-    <meta property="og:title" content="Super Pretendo Music" />
-    <meta property="og:image" content="http://superpretendomusic.com/images/super-pretendo-main.png" />
+    <meta name="description"
+          content="Super Pretendo is a Raleigh, NC solo acoustic musical act with a catalog of songs written and covered by Jon Skinner, streaming everywhere now.">
+    <meta property="og:title" content="Super Pretendo Music"/>
+    <meta property="og:image" content="http://superpretendomusic.com/images/super-pretendo-main.png">
     <link rel="icon" href="<%= BASE_URL %>">
-    <title>Super Pretendo </title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but superpretendomusic.com doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+    <title>Super Pretendo Music</title>
+</head>
+<body>
+<noscript>
+    <strong>We're sorry but superpretendomusic.com doesn't work properly without JavaScript enabled. Please enable it to
+        continue.</strong>
+</noscript>
+<div id="app"></div>
+<!-- built files will be auto injected -->
+</body>
 </html>

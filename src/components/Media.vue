@@ -1,7 +1,7 @@
 <template>
     <section id="media" class="container-fluid">
         <div class="row">
-            <div class="col-6 mx-auto">
+            <div class="col-md-6 mx-auto">
                 <div class="media-container">
                     <div class="iframe-container">
                         <iframe src="https://open.spotify.com/embed/artist/39bazNvS2uaVmod4LdwpCx" width="675" height="380"

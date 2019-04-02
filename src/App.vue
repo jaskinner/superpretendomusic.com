@@ -2,6 +2,7 @@
     <div id="app">
         <Header></Header>
         <Feature></Feature>
+        <Reel></Reel>
         <Media></Media>
         <Footer></Footer>
     </div>
@@ -10,13 +11,14 @@
 <script>
     import Header from './components/Header'
     import Feature from './components/Feature'
+    import Reel from './components/Reel'
     import Media from './components/Media'
     import Footer from './components/Footer'
 
     export default {
         name: 'app',
         components: {
-            Header, Feature, Media, Footer
+            Header, Feature, Reel, Media, Footer
         }
     }
 </script>

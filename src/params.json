@@ -15,6 +15,32 @@
       "hoverColor": "#1db954"
     }
   ],
+  "videos": [
+    {
+      "id": 1,
+      "feature": true,
+      "videoAlt": "One Direction - Perfect - Pop Punk Cover",
+      "videoEmbed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/nUvDKdiUdJE\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    },
+    {
+      "id": 2,
+      "feature": false,
+      "videoAlt": "Neck Deep - Growing Pains | Jon Skinner cover",
+      "videoEmbed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Yj99XdD6LEE\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    },
+    {
+      "id": 3,
+      "feature": false,
+      "videoAlt": "God's Gonna Cut You Down - Johnny Cash (cover by Jon Skinner)",
+      "videoEmbed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/gNbnPB1vjas\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    },
+    {
+      "id": 4,
+      "feature": false,
+      "videoAlt": "Asian Games 2018 Official Song - Bright As The Sun ROCK Cover",
+      "videoEmbed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/m2Qi70Hho9o\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    }
+  ],
   "featureInfo": {
     "imgUrl": "album-cover-background.jpg",
     "featureImgUrl": "album-cover-growing-pains-min.jpg",

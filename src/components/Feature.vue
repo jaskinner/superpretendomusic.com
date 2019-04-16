@@ -1,5 +1,5 @@
 <template>
-    <header class="jumbotron jumbotron-fluid" id="feature" :style="{ backgroundImage: 'url(' + require('../assets/images/' + imgUrl) + ')' }">
+    <header class="jumbotron jumbotron-fluid" id="feature">
         <div class="container feature-grid">
             <div class="feature-headline">
                 <p class="display-3 main-header">{{ featureMsgTop }}</p>
@@ -37,8 +37,8 @@
 
 <style scoped lang="scss">
     #feature {
-        background-size: cover;
-        background-color: #999;
+        /*background-size: cover;*/
+        background-color: lightblue;
         background-blend-mode: screen;
         background-position-y: 25%;
         /*text-align: center;*/

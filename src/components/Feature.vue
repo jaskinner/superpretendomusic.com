@@ -56,7 +56,7 @@
                 "button";
 
                 @media (min-width: 768px) {
-                    grid-template-rows: 1fr 1fr;
+                    grid-template-columns: 1fr 1fr;
                     grid-template-areas:
                             "headline feature"
                             "date feature"

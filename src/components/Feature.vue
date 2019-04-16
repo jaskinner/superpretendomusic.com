@@ -1,6 +1,6 @@
 <template>
     <header class="jumbotron jumbotron-fluid" id="feature">
-        <div class="container feature-grid">
+        <div class="container feature-grid text-center">
             <div class="feature-headline">
                 <p class="display-3 main-header">{{ featureMsgTop }}</p>
             </div>
@@ -47,12 +47,22 @@
 
         .feature-grid {
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1fr;
             grid-template-rows: auto;
             grid-template-areas:
-                "headline feature"
-                "date feature"
-                "button feature";
+                "headline"
+                "feature"
+                "date"
+                "button";
+
+                @media (min-width: 768px) {
+                    grid-template-rows: 1fr 1fr;
+                    grid-template-areas:
+                            "headline feature"
+                            "date feature"
+                            "button feature";
+                }
+
 
             .feature-btn, .feature-date, .feature-headline, .feature-img-wrapper {
                 justify-self: center;

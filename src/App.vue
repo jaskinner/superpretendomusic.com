@@ -25,6 +25,8 @@
 
 <style lang="scss">
     @import "./assets/scss/style.scss";
+    @import url("https://use.typekit.net/owx4dww.css");
+
 
     body, * {
         margin: 0;
@@ -35,6 +37,12 @@
     #app {
         color: #2c3e50;
         margin-top: 86px;
+    }
+
+    .main-header {
+        font-family: blockhead-unplugged,sans-serif;
+        font-weight: 400;
+        font-style: normal;
     }
 
     .iframe-container {

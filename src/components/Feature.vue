@@ -1,10 +1,18 @@
 <template>
     <header class="jumbotron jumbotron-fluid" id="feature" :style="{ backgroundImage: 'url(' + require('../assets/images/' + imgUrl) + ')' }">
-        <div class="container">
-            <p class="display-4">{{ featureMsgTop }}</p>
-            <img class="img-fluid feature-img" :src="require('../assets/images/' + featureImgUrl)" :alt="featureMsgTop + ' | ' + featureMsgBottom">
-            <p class="lead">{{ featureMsgBottom }}</p>
-            <a class="btn btn-primary btn-lg" target="_blank" :href="featureLink">{{ featureBtn }}</a>
+        <div class="container feature-grid">
+            <div class="feature-headline">
+                <p class="display-3 main-header">{{ featureMsgTop }}</p>
+            </div>
+            <div class="feature-img-wrapper">
+                <img class="img-fluid feature-img" :src="require('../assets/images/' + featureImgUrl)" :alt="featureMsgTop + ' | ' + featureMsgBottom">
+            </div>
+            <div class="feature-date">
+                <p class="lead">{{ featureMsgBottom }}</p>
+            </div>
+            <div class="feature-btn p-3">
+                <a class="btn btn-primary btn-lg" target="_blank" :href="featureLink">{{ featureBtn }}</a>
+            </div>
         </div>
     </header>
 </template>
@@ -33,9 +41,40 @@
         background-color: #999;
         background-blend-mode: screen;
         background-position-y: 25%;
-        text-align: center;
+        /*text-align: center;*/
         font-weight: 200;
         font-style: normal;
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto;
+            grid-template-areas:
+                "headline feature"
+                "date feature"
+                "button feature";
+
+            .feature-btn, .feature-date, .feature-headline, .feature-img-wrapper {
+                justify-self: center;
+                align-self: center;
+            }
+
+            .feature-headline {
+                grid-area: headline;
+            }
+
+            .feature-date {
+                grid-area: date;
+            }
+
+            .feature-img-wrapper {
+                grid-area: feature;
+            }
+
+            .feature-btn {
+                grid-area: button;
+            }
+        }
 
         .feature-img {
             max-width: 200px;

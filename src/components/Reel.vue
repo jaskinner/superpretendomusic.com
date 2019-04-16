@@ -1,11 +1,13 @@
 <template>
-    <section id="reel" class="container">
+    <section id="reel" class="container mx-auto my-5">
+        <h1 class="main-header">VIDEOS</h1>
+        <hr>
         <div class="row">
             <div v-for="video in videoList"
                  :key="video.id"
                  v-bind:class="{ 'col-12': (video.id == 1), 'col-lg-4 col-md-12': (video.id > 1) }"
             >
-                <div class="media-container">
+                <div class="p-2">
                     <div class="iframe-container" v-html="video.videoEmbed">
                     </div>
                 </div>
@@ -28,10 +30,4 @@
 </script>
 
 <style lang="scss" scoped>
-    #reel {
-        margin: 25vh auto;
-    }
-    .media-container {
-        padding: 1rem;
-    }
 </style>
